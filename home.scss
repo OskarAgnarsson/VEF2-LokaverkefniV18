@@ -15,4 +15,45 @@
 }
 .upp h1 {
 	font-size:70px;
+	font-family: 'Anton', sans-serif;
 }
+
+/*
+ laga
+#slideshow {
+  position: relative;
+  width: 200px;
+  height: 400px;
+  overflow: hidden;
+  border: 5px solid #fff;
+}
+#slideshow img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation: slide 5s infinite;
+}
+#slideshow img:nth-child(2) {
+  position: absolute;
+  left: 200px;
+  top: 0;
+  animation: slide 5s infinite 3.75s;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0px)
+  }
+  25% {
+    transform: translateX(-200px)
+  }
+  50% {
+    transform: translateX(-400px)
+  }
+  75% {
+    transform: translateX(-600px)
+  }
+  100% {
+    transform: translateX(-800px)
+  }
+}
+*/
