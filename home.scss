@@ -1,0 +1,18 @@
+.upplysingar {
+	display:grid;
+	grid-gap: 0;
+	grid-template-areas:
+		"upplysingar mynd";
+	grid-template-columns: 2fr 1fr;
+}
+.upp {
+	grid-area:upplysingar;
+}
+
+.mynd {
+	grid-area:mynd;
+	border: solid 1px black;
+}
+.upp h1 {
+	font-size:70px;
+}
