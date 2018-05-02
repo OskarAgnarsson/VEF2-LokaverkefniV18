@@ -7,6 +7,13 @@ body{
 	background-color: #332e2c;
 	color: #e5bb50;
 }
+header{
+	display:grid;
+	grid-gap: 0;
+	grid-template-areas:
+		"takn topnav";
+	grid-template-columns: 1fr 7fr;
+}
 .topnav ul{
 	display: flex;
 	flex-flow: row;
