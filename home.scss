@@ -18,22 +18,21 @@
 	font-family: 'Anton', sans-serif;
 }
 
-/*
- laga
-#slideshow {
+
+.slideshow {
   position: relative;
-  width: 200px;
-  height: 400px;
+  width: 60em;
+  height: 20em;
   overflow: hidden;
   border: 5px solid #fff;
 }
-#slideshow img {
+.slideshow img {
   position: absolute;
   left: 0;
   top: 0;
   animation: slide 5s infinite;
 }
-#slideshow img:nth-child(2) {
+.slideshow img:nth-child(2) {
   position: absolute;
   left: 200px;
   top: 0;
@@ -56,4 +55,4 @@
     transform: translateX(-800px)
   }
 }
-*/
+

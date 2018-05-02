@@ -34,11 +34,28 @@ header{
 	color: #e5bb50;
 }
 .band{
+	display:grid;
+	grid-gap: 0;
+	grid-template-areas:
+		"bandInfo songs";
+	grid-template-columns: 2fr 1fr;
 	background-color: #564132;
 	padding: .5em;
 	margin:.5em auto;
 }
+.band h3{
+	margin-left: 3em;
+}
 .bandInfo{
 	background-color: #332e2c;
 	padding: .5em;
+}
+.songs ul{
+	list-style: none;
+	margin-left: 1em;
+	background-color: #332e2c;
+	padding: .5em;
+}
+.songs h4{
+	margin-left: 3em;
 }
