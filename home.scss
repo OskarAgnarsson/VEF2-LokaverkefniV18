@@ -34,13 +34,13 @@
 }
 .slideshow img:nth-child(1) {
   position: absolute;
-  left: 200px;
+  left: 960px;
   top: 0;
   animation: slide 20s infinite 3.75s;
 }
 .slideshow img:nth-child(2) {
   position: absolute;
-  left: 200px;
+  left: 960px;
   top: 0;
   animation: slide 20s infinite 3.75s;
 }
@@ -54,7 +54,7 @@
   position: absolute;
   left: 200px;
   top: 0;
-  animation: slide 20s infinite 3.75s;
+  animation: slide 20s infinite 30.75s;
 }
 @keyframes slide {
   0% {
