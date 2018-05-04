@@ -32,19 +32,19 @@
   top: 0;
   animation: slide 5s infinite;
 }
-.slideshow img:nth-child(2) {
+.slideshow img:nth-child(1) {
   position: absolute;
   left: 960px;
   top: 0;
   animation: slide 5s infinite 3.75s;
 }
-.slideshow img:nth-child(3) {
+.slideshow img:nth-child(2) {
   position: absolute;
   left: 1920px;
   top: 0;
   animation: slide 5s infinite 3.75s;
 }
-.slideshow img:nth-child(4) {
+.slideshow img:nth-child(3) {
   position: absolute;
   left: 2880px;
   top: 0;
