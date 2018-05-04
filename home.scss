@@ -21,8 +21,8 @@
 
 .slideshow {
   position: relative;
-  width: 60em;
-  height: 20em;
+  width: 960px;
+  height: 540px;
   overflow: hidden;
   border: 5px solid #fff;
 }
@@ -34,7 +34,19 @@
 }
 .slideshow img:nth-child(2) {
   position: absolute;
-  left: 200px;
+  left: 960px;
+  top: 0;
+  animation: slide 5s infinite 3.75s;
+}
+.slideshow img:nth-child(3) {
+  position: absolute;
+  left: 1920px;
+  top: 0;
+  animation: slide 5s infinite 3.75s;
+}
+.slideshow img:nth-child(4) {
+  position: absolute;
+  left: 2880px;
   top: 0;
   animation: slide 5s infinite 3.75s;
 }
@@ -43,16 +55,16 @@
     transform: translateX(0px)
   }
   25% {
-    transform: translateX(-200px)
+    transform: translateX(-960px)
   }
   50% {
-    transform: translateX(-400px)
+    transform: translateX(-1920px)
   }
   75% {
-    transform: translateX(-600px)
+    transform: translateX(-2880px)
   }
   100% {
-    transform: translateX(-800px)
+    transform: translateX(-3840px)
   }
 }
 
