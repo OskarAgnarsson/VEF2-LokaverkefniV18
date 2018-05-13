@@ -42,7 +42,7 @@
     transform: translate(-50%, -80%);
   }
 }
-.modal__wrap label {
+.exit {
   background: #e5bb50;
   border-radius: 50%;
   color: #332e2c;
@@ -71,6 +71,9 @@
 .modal input {
   display:none;
 }
+.modal__wrap input{
+  display: inline-block;
+}
 
 .modal__overlay {
   opacity: 0;
@@ -83,4 +86,25 @@ input:checked ~ .modal__overlay {
   opacity: 1;
   transform: scale(1);
   z-index:100;
+} 
+.register{
+  padding:1em;
 }
+.formlabel input,
+.formlabel select{
+  display: inline;
+}
+
+.formlabel input,select{
+  margin-bottom: 1em;
+}
+
+.formlabel input[type=email],
+.formlabel input[type=text],
+.formlabel input[type=tel]{
+  width:100%;
+}
+.form{
+  position: static;
+}
+
