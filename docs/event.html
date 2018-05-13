@@ -23,7 +23,17 @@
 			<li><a href="index.html">Home</a></li>
 			<li><a href="lineup.html">Lineup</a></li>
 			<li><a href="event.html">Event</a></li>
-			<li><a href="">Skráning</a></li>
+			<div class="modal">
+    			<input id="modal__trigger" type="checkbox" />
+    			<label for="modal__trigger">Skráning</label>
+    			<div class="modal__overlay" role="dialog" aria-labelledby="modal__title" aria-describedby="modal_desc">
+        			<div class="modal__wrap">
+            			<label for="modal__trigger">&#10006;</label>
+            			<h2 id="modal__title">Skráning</h2>
+            			<p id="modal__desc"></p>
+        			</div>
+    			</div>
+			</div>
 		</ul>
 	</nav>
 </header>
