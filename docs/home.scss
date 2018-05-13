@@ -8,6 +8,15 @@
 .upp {
 	grid-area:upplysingar;
 }
+.upplysingar{
+	margin: 1em;
+	background-color: #564132;
+	padding: 1em;
+}
+.upp p{
+	background-color: #332e2c;
+	padding: .5em;
+}
 
 .mynd {
 	grid-area:mynd;
