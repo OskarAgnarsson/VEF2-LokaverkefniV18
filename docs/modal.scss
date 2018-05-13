@@ -104,7 +104,7 @@ input:checked ~ .modal__overlay {
 .formlabel input[type=tel]{
   width:100%;
 }
-.form{
-  position: static;
+.form label{
+  padding: 1em; 
 }
 

@@ -1,0 +1,63 @@
+/*==================================
+  Viðmið - breakpoints 30em = 480px + 
+  ========================================*/
+
+@media screen and (min-width: 30em) {  /* það má ekki setja slaufusvigann í næstu línu, þá virkar ekki viðmiðið */
+  body {
+    max-width: 25em;
+    margin: 0 auto;
+  }
+  .lineup {
+    margin: 0 auto;
+  }
+}
+/*  ========================================
+  Viðmið - breakpoints 37.5em = 600px + 
+  ========================================*/
+@media screen and (min-width: 37.5em) {  /* það má ekki setja slaufusvigann í næstu línu, þá virkar ekki viðmiðið */
+  body {
+    max-width: 32.5em;
+    margin: 0 auto;
+  }
+  .lineup {
+    margin: 0 auto;
+  }
+}
+/* ========================================
+  Viðmið - breakpoints 48em = 760px +
+  ======================================== */
+@media screen and (min-width: 48em) {  /* það má ekki setja slaufusvigann í næstu línu, þá virkar ekki viðmiðið */
+  body {
+    max-width: 40em;
+    margin: 0 auto;
+  }
+  .lineup {
+    margin: 0 auto;
+  }
+}
+
+/* ========================================
+  Viðmið - breakpoints 60em = 960px +
+  ======================================== */
+@media screen and (min-width: 60em) {  /* það má ekki setja slaufusvigann í næstu línu, þá virkar ekki viðmiðið */
+  body{
+    max-width: 60em;
+    margin: 0 auto;
+  }
+  .lineup {
+    margin: 0 auto;
+  }
+}
+/* ========================================
+  Viðmið - breakpoints 80em = 1600px +
+  ======================================== */
+
+@media screen and (min-width: 80em) {  /* það má ekki setja slaufusvigann í næstu línu, þá virkar ekki viðmiðið */
+  body{
+    max-width: 80em;
+    margin: 0 auto;
+  }
+  .lineup {
+    margin: 0 auto;
+  }
+}
